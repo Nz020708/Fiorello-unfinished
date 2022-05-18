@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    font-family: 'Tajawal', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+        img{
+            height: 25px;
+            width: 200px;
+        }
+    .navbar-lists{
+        width: 700px;
+        padding: 8px;
+        ul{
+            display: flex;
+            list-style: none;
+            justify-content: space-evenly;
+            
+            li{
+                margin-right: 45px;
+                a{
+                    text-decoration: none;
+                    color: $primary-color;
+                }
+            }
+           
+        }
+    }
+   
+    
+}
